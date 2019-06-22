@@ -6,7 +6,7 @@ public class MapElementsCounter<E> {
 
     public MapElementsCounter(E [] array) {
         for (E elem : array) {
-            map.put(elem, map.containsKey(elem) ? map.get(elem)+1 : 1);
+            map.put(elem, map.containsKey(elem) ? map.get(elem) + 1 : 1);
         }
     }
 
